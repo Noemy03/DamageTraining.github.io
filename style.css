@@ -99,23 +99,11 @@ a {
 		}
 		#ciboFit {
 			width: 400px;
-			height: 2400px;
+			height: 400px;
 		}
 		muesliGirlImg {
 			width: 400px;
 			height: 400px;
-		}
-		#XfilesImg {
-		width: auto;
-		height: auto;
-		}
-		#ciboFitImg {
-		width: auto;
-		height: auto;
-		}
-		#muesliGirlImg {
-			width: auto;
-			height: auto;
 		}
 
 } 
