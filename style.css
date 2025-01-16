@@ -82,7 +82,7 @@ a {
 @media (max-width: 823px) {
 		.container {
 				display: flex;
-				width: auto;
+				width: 100%;
 				height: auto;
      	}
 		.slider-wrapper {
@@ -94,28 +94,28 @@ a {
 				text-align: center;
 		}
 		#Xfiles {
-			width: 70px;
-			height: 70px;
+			width: 250px;
+			height: 250px;
 		}
 		#ciboFit {
-			width: 70px;
-			height: 70px;
+			width: 250px;
+			height: 250px;
 		}
 		muesliGirlImg {
-			width: 70px;
-			height: 70px;
+			width: 250px;
+			height: 250px;
 		}
 		#XfilesImg {
-		width: 70px;
-		height: 70px;
+		width: auto;
+		height: auto;
 		}
 		#ciboFitImg {
-		width: 70px;
-		height: 70px;
+		width: auto;
+		height: auto;
 		}
 		#muesliGirlImg {
-			width: 70px;
-			height: 70px;
+			width: auto;
+			height: auto;
 		}
 
 } 
