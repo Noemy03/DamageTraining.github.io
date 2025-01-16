@@ -162,6 +162,8 @@ p {
 		border-radius: 10%;
 }
 #muesliGirl {
+		width: 400px;
+		height: 400px;
 		margin-left: 150px;
 		margin-right: 150px;
 		text-align: center;
