@@ -88,8 +88,8 @@ a {
 				height: auto;
      	}
 		.slider-wrapper {
-				margin-right: 10px;
-				margin-left: 10px;
+				margin-right: 0px;
+				margin-left: 0px;
 				display: flex;
 				width: auto;
 				height: auto;
@@ -98,12 +98,12 @@ a {
 				text-align: center;
 		}
 		#XfilesImg {
-		width: 400px;
-		height: 400px;
+		width: 300px;
+		height: 300px;
 		}
 		#ciboFitImg {
-		width: 400px;
-		height: 400px;
+		width: 300px;
+		height: 300px;
 		}
 		#muesliGirlImg {
 			width: 300px;
