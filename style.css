@@ -81,21 +81,29 @@ a {
 /* on mobile ... */
 @media (max-width: 823px) {
 		.container {
-				margin-right: 0px;
-				margin-left: 0px;
 				display: flex;
 				width: auto;
 				height: auto;
      	}
 		.slider-wrapper {
-				margin-right: 0px;
-				margin-left: 0px;
 				display: flex;
 				width: auto;
 				height: auto;
 		}
 		a {
 				text-align: center;
+		}
+		#Xfiles {
+			width: 70px;
+			height: 70px;
+		}
+		#ciboFit {
+			width: 70px;
+			height: 70px;
+		}
+		muesliGirlImg {
+			width: 70px;
+			height: 70px;
 		}
 		#XfilesImg {
 		width: 70px;
