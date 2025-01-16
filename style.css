@@ -125,7 +125,7 @@ a {
 		border-radius: 10px;
 		background-color: black;
 		height: 50px;
-		width: auto;
+		width: 100%;
 		position: relative;
 		top: -10px;
 }
