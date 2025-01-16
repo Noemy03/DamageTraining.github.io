@@ -94,16 +94,16 @@ a {
 				text-align: center;
 		}
 		#Xfiles {
-			width: 500px;
-			height: 500px;
+			width: 100%;
+			height: auto;
 		}
 		#ciboFit {
-			width: 500px;
-			height: 500px;
+			width: 100%;
+			height: auto;
 		}
 		muesliGirlImg {
-			width: 500px;
-			height: 500px;
+			width: 100%;
+			height: auto;
 		}
 
 } 
