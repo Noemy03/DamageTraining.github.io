@@ -1,0 +1,174 @@
+#body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, white, black);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, Verdana;
+}
+
+/* image slider style */
+.container {
+		top: 60px;
+		height: 400px;
+		object-fit: cover;
+		width: auto;
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-top: 45px;
+}
+.slider-wrapper {
+		top: -45px;
+		object-fit: cover;
+		display: flex;
+		position: relative;
+		width: 100%;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		white-space: nowrap;
+		justify-content: space-between;
+		scroll-snap-type: x mandatory;
+		scroll-behavior: smooth;
+		border-radius: 10%;
+		box-shadow: 10, 10, rgba(0, 0, 0, 0.9);
+}
+* {		
+		scrollbar-width: 10px;
+		scrollbar-width: thin;
+		scrollbar-color: black transparent;
+		
+}
+#slide1, #slide2, #slide3 {
+		height: 400px;
+		width: 100%;
+}
+.dots {
+		position: relative;
+		top: -50px;
+		color: white;
+		text-decoration: none !important;
+		background-color: transparent;
+		color: white;
+		white-space: nowrap;
+		gap: 90px;
+		text-align: center;
+}
+a:visited{
+		color: white;
+		text-decoration: none !important;
+		background-color: transparent;
+}
+a:link{
+		color: white;
+		background-color: transparent;
+		border-radius: 100%;
+		text-decoration: none !important;
+}
+a:hover{
+		background-color: transparent;
+		color: black;
+		text-decoration: none !important;
+}
+a {
+		background-color: white;
+		margin: 0 20px;
+		text-decoration: none;
+}
+/* end of slider style */
+
+/* on mobile ... */
+@media (max-width: 823px) {
+		.container {
+				margin-right: 0px;
+				margin-left: 0px;
+				display: flex;
+				width: auto;
+				height: auto;
+     	}
+		.slider-wrapper {
+				margin-right: 10px;
+				margin-left: 10px;
+				display: flex;
+				width: auto;
+				height: auto;
+		}
+		a {
+				text-align: center;
+		}
+		#XfilesImg {
+		width: 400px;
+		height: 400px;
+		}
+		#ciboFitImg {
+		width: 400px;
+		height: 400px;
+		}
+
+} 
+
+/*end of mobile code*/
+#bar {
+		border-radius: 10px;
+		background-color: black;
+		height: 50px;
+		width: auto;
+		position: relative;
+		top: -10px;
+}
+#Title-text{
+		color: white;
+		position: relative;
+		top: 7px;
+		text-align: center;
+		font-size: 30px;
+}
+::selection {
+		background-color: grey;
+		color: white;
+}
+h1 {
+		text-align: center;
+}
+h2 {
+		text-align: center;
+}
+p {
+		text-align: center;
+}
+#Xfiles {
+		margin-left: 150px;
+		margin-right: 150px;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		text-align: center;
+}
+#XfilesImg {
+		border-radius: 10%;
+}
+#ciboFit {
+		margin-left: 150px;
+		margin-right: 150px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+}
+#ciboFitImg {
+		border-radius: 10%;
+}
+#muesliGirl {
+		margin-left: 150px;
+		margin-right: 150px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+}
+#muesliGirlImg {
+		border-radius: 10%;
+}
+#footer{
+		border-radius: 30%;
+		background-color: grey !important;
+}
