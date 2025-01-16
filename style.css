@@ -105,6 +105,18 @@ a {
 			width: 100%;
 			height: auto;
 		}
+		#XfilesImg {
+			width: 100%;
+			height: auto;
+		}
+		#ciboFitImg {
+			width: 100%;
+			height: auto;
+		}
+		#muesliGirlImg {
+			width: 100%;
+			height: auto;
+		}
 
 } 
 
@@ -160,8 +172,6 @@ p {
 		border-radius: 10%;
 }
 #muesliGirl {
-		width: 400px;
-		height: 400px;
 		margin-left: 150px;
 		margin-right: 150px;
 		text-align: center;
