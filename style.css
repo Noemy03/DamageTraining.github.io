@@ -79,7 +79,7 @@ a {
 /* end of slider style */
 
 /* on mobile ... */
-@media (max-width: 823px) {
+@media (max-width: 640px) {
 		.container {
 				display: flex;
 				width: 100%;
@@ -87,11 +87,15 @@ a {
      	}
 		.slider-wrapper {
 				display: flex;
-				width: auto;
+				width: 100%;
 				height: auto;
 		}
 		a {
 				text-align: center;
+		}
+		#bar {
+			width: 100%;
+			text-align: center;
 		}
 		#Xfiles {
 			width: 100%;
