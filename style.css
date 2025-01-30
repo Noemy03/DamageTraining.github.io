@@ -1,3 +1,6 @@
+html {
+	text-size-adjust: none;
+}
 #body {
     background-attachment: fixed;
     background-image: linear-gradient(to bottom, white, black);
